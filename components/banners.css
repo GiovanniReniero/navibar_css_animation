@@ -23,15 +23,20 @@
   font-weight: bold;
   margin: auto;
   animation: bounce;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-fill-mode: forwards;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
 }
 
 @keyframes bounce{
-  0% {top: 5px}
-  100%{top: 280px}
+  0% {
+      top: 5px;
+    }
+  
+  100% {
+      top: 280px;
+  }
   
 }
 
