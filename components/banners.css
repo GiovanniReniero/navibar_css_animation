@@ -1,0 +1,37 @@
+
+.banner{
+  background-image: url("../images/leaf.jpg");
+  background-position: 25% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.bounceBox{
+  margin: auto;
+  width: 80vh;
+  /* border: 2px solid red; */
+  height: 350px;
+  position: relative;
+}
+
+.showCase {
+  position: relative;
+  left: 24vh;
+  color: bisque;
+  line-height: 2em;
+  font-weight: bold;
+  margin: auto;
+  animation: bounce;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce{
+  0% {top: 5px}
+  100%{top: 280px}
+  
+}
+
