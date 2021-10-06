@@ -16,13 +16,13 @@
 }
 
 .showCase {
+  /* border: 2px solid blue; */
   position: relative;
-  left: 24vh;
+  text-align: center;
   color: bisque;
   line-height: 2em;
   font-size: 40px;
   font-weight: bold;
-  margin: auto;
   animation: bounce;
   animation-duration: 3s;
   animation-fill-mode: forwards;
