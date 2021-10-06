@@ -1,10 +1,10 @@
 .slideWrapper{
-  position: relative;
+  /* position: relative; */
   line-height: 1.6em;
 }
 
 .articleWrapper p{
-  position: absolute;
+  position: relative;
   color: darkgray;
   font-size: 18px;
   width: 60%;
@@ -23,7 +23,7 @@
 }
 
 .sideBarWrapper p{
-  position: absolute;
+  position: relative;
   color: darkgray;
   background-color: #333;
   width: 40%;

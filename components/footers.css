@@ -1,0 +1,16 @@
+.footerWrapper{
+  display: inline-block;
+  height: 5vh;
+  width: 100%;  
+  background-color: #333;
+  text-align: center;
+  /* border: 2px solid red; */
+  
+}
+
+ .footerWrapper p{
+  padding: 8px 8px;
+  margin-top: 12px;
+  color: darkgray;
+  font-size: 18px;
+}
